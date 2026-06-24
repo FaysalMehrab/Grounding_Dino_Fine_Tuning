@@ -16,7 +16,7 @@ MAX_TRAIN_SAMPLES = None
 MAX_VAL_SAMPLES = None   
 EPOCHS = 500
 PATIENCE = 20
-GRAD_ACCUMULATION_STEPS = 4  # Effective batch size of 4
+GRAD_ACCUMULATION_STEPS = 4 
 
 
 class GroundingDinoCocoDataset(Dataset):
